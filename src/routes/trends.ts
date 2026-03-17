@@ -171,10 +171,10 @@ router.get('/queue/status', async (_req: Request, res: Response) => {
     res.json({
       success: true,
       data: {
-        'trend:social-scan':            scanCounts,
-        'trend:marketplace-validation': validateCounts,
-        'trend:supplier-analysis':      supplierCounts,
-        'trend:daily-top20':            top20Counts,
+        'trend-social-scan':            scanCounts,
+        'trend-marketplace-validation': validateCounts,
+        'trend-supplier-analysis':      supplierCounts,
+        'trend-daily-top20':            top20Counts,
       },
     });
   } catch (err: any) {
