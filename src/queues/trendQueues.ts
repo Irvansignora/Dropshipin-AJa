@@ -12,11 +12,11 @@ const defaultOptions = {
   },
 };
 
-export const socialScanQueue = new Queue('trend:social-scan', defaultOptions);
-export const marketplaceValidationQueue = new Queue('trend:marketplace-validation', defaultOptions);
-export const supplierAnalysisQueue = new Queue('trend:supplier-analysis', defaultOptions);
-export const opportunityScoringQueue = new Queue('trend:opportunity-scoring', defaultOptions);
-export const dailyTop20Queue = new Queue('trend:daily-top20', defaultOptions);
+export const socialScanQueue = new Queue('trend-social-scan', defaultOptions);
+export const marketplaceValidationQueue = new Queue('trend-marketplace-validation', defaultOptions);
+export const supplierAnalysisQueue = new Queue('trend-supplier-analysis', defaultOptions);
+export const opportunityScoringQueue = new Queue('trend-opportunity-scoring', defaultOptions);
+export const dailyTop20Queue = new Queue('trend-daily-top20', defaultOptions);
 
 export const allQueues = [
   socialScanQueue,
