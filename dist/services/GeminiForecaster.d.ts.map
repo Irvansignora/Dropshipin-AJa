@@ -1,0 +1,1 @@
+{"version":3,"file":"GeminiForecaster.d.ts","sourceRoot":"","sources":["../../src/services/GeminiForecaster.ts"],"names":[],"mappings":"AAEA,OAAO,EAAE,aAAa,EAAE,gBAAgB,EAAE,MAAM,sBAAsB,CAAC;AAIvE,qBAAa,gBAAgB;IAC3B,OAAO,CAAC,KAAK,CAAmC;IAEhD,OAAO,CAAC,QAAQ;IAMV,QAAQ,CAAC,WAAW,EAAE,IAAI,CAAC,gBAAgB,EAAE,UAAU,CAAC,GAAG,OAAO,CAAC,aAAa,CAAC;IAgDvF,OAAO,CAAC,iBAAiB;CAmB1B"}

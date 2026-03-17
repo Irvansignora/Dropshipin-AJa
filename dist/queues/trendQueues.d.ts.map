@@ -1,0 +1,1 @@
+{"version":3,"file":"trendQueues.d.ts","sourceRoot":"","sources":["../../src/queues/trendQueues.ts"],"names":[],"mappings":"AACA,OAAO,EAAE,KAAK,EAAE,MAAM,QAAQ,CAAC;AAa/B,eAAO,MAAM,eAAe,2CAAiD,CAAC;AAC9E,eAAO,MAAM,0BAA0B,2CAA4D,CAAC;AACpG,eAAO,MAAM,qBAAqB,2CAAuD,CAAC;AAC1F,eAAO,MAAM,uBAAuB,2CAAyD,CAAC;AAC9F,eAAO,MAAM,eAAe,2CAAiD,CAAC;AAE9E,eAAO,MAAM,SAAS,6CAMrB,CAAC"}
