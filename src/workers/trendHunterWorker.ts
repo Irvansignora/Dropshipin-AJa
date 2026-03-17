@@ -18,7 +18,7 @@ const engine = new TrendHunterEngine();
 // ─── Job Workers ──────────────────────────────────────────────────────────────
 
 const socialWorker = new Worker(
-  'trend:social-scan',
+  'trend-social-scan',
   async (job) => {
     logger.info(`[Worker] Processing job: ${job.name} (id: ${job.id})`);
     await engine.runSocialScan();
@@ -27,7 +27,7 @@ const socialWorker = new Worker(
 );
 
 const marketplaceWorker = new Worker(
-  'trend:marketplace-validation',
+  'trend-marketplace-validation',
   async (job) => {
     logger.info(`[Worker] Processing job: ${job.name} (id: ${job.id})`);
     await engine.runMarketplaceValidation();
@@ -36,7 +36,7 @@ const marketplaceWorker = new Worker(
 );
 
 const supplierWorker = new Worker(
-  'trend:supplier-analysis',
+  'trend-supplier-analysis',
   async (job) => {
     logger.info(`[Worker] Processing job: ${job.name} (id: ${job.id})`);
     await engine.runSupplierAnalysis();
@@ -45,7 +45,7 @@ const supplierWorker = new Worker(
 );
 
 const top20Worker = new Worker(
-  'trend:daily-top20',
+  'trend-daily-top20',
   async (job) => {
     logger.info(`[Worker] Processing job: ${job.name} (id: ${job.id})`);
     const top = await engine.generateTop20();
